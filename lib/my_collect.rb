@@ -1,4 +1,4 @@
-require 'pry'
+
 def my_collect(students)
   names =[]
   while
