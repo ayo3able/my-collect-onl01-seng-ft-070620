@@ -9,7 +9,7 @@ end
 names
 end
 
-my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) 
+my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"])
          
          
 
