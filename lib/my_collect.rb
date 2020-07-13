@@ -2,7 +2,7 @@
 def my_collect(students)
   i = 0
   names =[]
-  while
+  while i <
   names << yield(students[i])
   i += 1
 end
