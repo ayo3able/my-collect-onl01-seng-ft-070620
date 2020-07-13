@@ -4,6 +4,7 @@ def my_collect(students)
   names =[]
   while
   names << yield(students[i])
+  i += 1
 end
 names
 end
