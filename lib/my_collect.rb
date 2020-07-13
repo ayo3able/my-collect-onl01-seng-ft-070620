@@ -3,7 +3,7 @@ def my_collect(students)
   yield
 end
 binding pry
-my_collect(students) { |student| student.split(" ").first}
+my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) { |student| student.split(" ").first}
          
          
 
