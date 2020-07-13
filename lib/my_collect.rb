@@ -1,8 +1,8 @@
 require 'pry'
 def my_collect(students)
   names =[]
-  yield
-  names <<
+  
+  names << yield()
   students
 end
 
