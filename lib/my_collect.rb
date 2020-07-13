@@ -4,6 +4,8 @@ def my_collect(students)
 end
 my_collect(students) { |student|
          student.split(" ").first}
+         
+         
 
 def my_collect(languages)
   yield
