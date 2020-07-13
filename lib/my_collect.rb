@@ -4,6 +4,7 @@ def my_collect(students)
   names =[]
   
   names << yield(students[i])
+  i += 1
 end
 
 my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) { |student| student.split(" ").first}
