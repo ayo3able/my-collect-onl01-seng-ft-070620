@@ -2,6 +2,7 @@ require 'pry'
 def my_collect(students)
   names =[]
   yield
+  names <<
   students
 end
 
