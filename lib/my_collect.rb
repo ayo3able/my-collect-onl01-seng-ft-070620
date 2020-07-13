@@ -2,6 +2,7 @@ require 'pry'
 def my_collect(students)
   yield
 end
+binding pry
 my_collect(students) { |student| student.split(" ").first}
          
          
